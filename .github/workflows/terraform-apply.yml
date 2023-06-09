@@ -9,7 +9,7 @@ env:
   TF_CLOUD_ORGANIZATION: "Stellwag-Twilio-Test"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "stellwag-terraform"
-  CONFIG_DIRECTORY: "../../terraform/environments/dev/"
+  CONFIG_DIRECTORY: "././terraform/environments/dev/main.tf"
 
 jobs:
   terraform:
